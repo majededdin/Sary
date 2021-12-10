@@ -27,9 +27,9 @@ class StoreFragment : BaseFragment<StoreVM>() {
     private val binding get() = _binding!!
     private var _binding: FragmentStoreBinding? = null
 
-    override fun setLayout(): Int = R.layout.fragment_store
-
     override fun getViewModel(): StoreVM = storeVM
+
+    override fun setLayout(): Int = R.layout.fragment_store
 
     override fun onDestroyView() {
         super.onDestroyView()
