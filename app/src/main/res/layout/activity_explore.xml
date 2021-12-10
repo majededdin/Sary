@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_parentView"
+    style="@style/BaseLayout"
+    android:clipChildren="false"
+    tools:context=".ui.activities.ExploreActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/baseAppBar"
+        style="@style/AppBarLayout">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/baseToolbar"
+            style="@style/Toolbar"
+            app:layout_scrollFlags="snap"
+            tools:title="@tools:sample/full_names" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorTextDefault" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/homeFrameLayout"
+        style="@style/BaseLayout"
+        android:paddingBottom="@dimen/dimen_72"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigationView"
+        style="@style/BottomNav"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/explore_nav_menu" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

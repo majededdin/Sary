@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../.gradle/caches/transforms-3/18b9e046fedb5073e9e0411de7c43c4a/transformed/jetified-LeonImageView-v1.1.4/res/layout/item_media.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/drawable/ic_orders.xml" value="0.2898148148148148" />
+        <entry key="app/src/main/res/drawable/ic_profile.xml" value="0.2898148148148148" />
+        <entry key="app/src/main/res/drawable/layer_dot_default.xml" value="0.36615384615384616" />
+        <entry key="app/src/main/res/drawable/layer_dot_selected.xml" value="0.36615384615384616" />
+        <entry key="app/src/main/res/drawable/shape_background_oval.xml" value="0.35185185185185186" />
+        <entry key="app/src/main/res/layout/activity_base.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_explore.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/fragment_base.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/fragment_loading.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/fragment_store.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/item_banner.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/item_group.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/item_smart.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/layout_banner.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/layout_group.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/layout_smart.xml" value="0.5" />
+        <entry key="app/src/main/res/menu/explore_nav_menu.xml" value="0.225" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

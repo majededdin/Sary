@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.BaseActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/containerBase"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layout_networkStatus" />
+
+    <LinearLayout
+        android:id="@+id/layout_networkStatus"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:background="@android:color/darker_gray">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_networkStatus"
+            style="@style/TextView"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            tools:text="@tools:sample/full_names" />
+
+        <ProgressBar
+            android:id="@+id/progress_loading"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</RelativeLayout>
